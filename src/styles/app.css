@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+.app {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.controls {
+    position: relative;
+    width: 100%;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.controls>button {
+    position: relative;
+
+    margin: 0 8px;
+
+    height: 40px;
+    width: 120px;
+
+    cursor: pointer;
+}
+
+.zones {
+    position: relative;
+
+    width: 100%;
+    flex: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.zones>* {
+    position: relative;
+
+    width: 100%;
+    flex: 1;
+
+    margin: 8px 0;
+
+    border: 1px solid black;
+
+    background-color: rgb(211, 211, 211);
+}
